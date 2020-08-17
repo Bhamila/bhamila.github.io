@@ -1,15 +1,51 @@
 .bg-custom-2 {
-background-image: linear-gradient(15deg, #69137a 0%, #80d0c7 100%);
+	background-image: linear-gradient(15deg, #e49ed1 0%, #e9de64 100%);
  }
 
  body {
-     padding-top: 20px;
+		padding-top: 20px;
  }
 
+
 .navbar-nav .dropdown-menu {
-    border-radius: 13px !important;
+	border-radius: 13px !important;
+}
+.navbar{
+	margin-bottom: 20px;
+}
+.navbar .ml-auto li{
+	margin-right: 6px;
+
 }
 
 .dropdown-item {
 	color: #69137a !important;
+}
+
+.whats-new{
+	float: right;
+	border: #69137a 1px solid;
+}
+
+.home-image{
+	width:350px;
+	height:480px;
+	background-color: red;
+}
+
+.title{
+	align-content: center;
+	font-size: 2vw;
+}
+
+.col-md{
+	margin: 10px;
+	/* background-color: green; */
+}
+p{
+	letter-spacing: 1px;
+}
+
+.carousel{
+	margin-bottom: 10px;
 }
