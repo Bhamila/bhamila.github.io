@@ -1,0 +1,15 @@
+.bg-custom-2 {
+background-image: linear-gradient(15deg, #69137a 0%, #80d0c7 100%);
+ }
+
+ body {
+     padding-top: 20px;
+ }
+
+.navbar-nav .dropdown-menu {
+    border-radius: 13px !important;
+}
+
+.dropdown-item {
+	color: #69137a !important;
+}
