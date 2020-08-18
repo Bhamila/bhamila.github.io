@@ -1,11 +1,10 @@
 .bg-custom-2 {
-	background-image: linear-gradient(15deg, #e49ed1 0%, #e9de64 100%);
+   background-image: linear-gradient(15deg, #e49ed1 0%, #e9de64 100%);
  }
 
  body {
 		padding-top: 20px;
  }
-
 
 .navbar-nav .dropdown-menu {
 	border-radius: 13px !important;
@@ -15,22 +14,28 @@
 }
 .navbar .ml-auto li{
 	margin-right: 6px;
-
 }
 
 .dropdown-item {
 	color: #69137a !important;
 }
 
+.t-color{
+  color: #4e075c !important;
+}
+
 .whats-new{
 	float: right;
-	border: #69137a 1px solid;
+  border: #69137a 1px solid;
+  color: #4e075c !important;
+  border-radius: 13px !important;
 }
 
 .home-image{
 	width:350px;
 	height:480px;
-	background-color: red;
+  background-color: red;
+  border-radius: 13px !important;
 }
 
 .title{
@@ -47,5 +52,21 @@ p{
 }
 
 .carousel{
-	margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+ .carousel-inner, .w-100
+{
+  border-radius: 5px !important;
+}
+
+.w-100 {
+  width: 100% !important;
+  height: 50vh; 
+  object-fit: fill;
+}
+
+.md-form input.form-control[type=text]:focus:not([readonly]) {
+  border-color: 2px solid #ce93d8;
+  box-shadow: 0 2px 0 0 #ce93d8;
 }
