@@ -85,7 +85,7 @@ p{
   box-shadow: 0 2px 0 0 #ce93d8;
 }
 
-.card{
+.tutorial-col{
   padding-top: 10px;
   margin-top:10px;
   border: #69137a 1px solid;
@@ -138,4 +138,38 @@ color: #fff !important;
 
 .tutorial-container{
   color: #4e075c !important;
+}
+
+/* .viewer{
+  margin-top:10px;
+  color: #4e075c !important;
+  margin-bottom: 30px;
+  border-radius: 13px !important;
+  max-width: 100% !important;
+} */
+
+.viewer {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.viewer img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.viewer span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+
+.viewer ::after{
+  content: "";
+  clear: both;
+  display: table;
 }
