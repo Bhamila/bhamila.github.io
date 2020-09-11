@@ -15,4 +15,3 @@ var table='';
 }
     $('.viewer').append(table);
  }
-   
