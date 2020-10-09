@@ -1,11 +1,15 @@
 .bg-custom-2 {
-   background-image: linear-gradient(15deg, #e49ed1 0%, #e9de64 100%);
+   background-image: linear-gradient(15deg, #e49ed1 50%, #e9de64 100%);
  }
 
  body {
 		padding-top: 20px;
  }
 
+ #logo{
+  display: flex;
+  justify-content: center !important;
+}
 .navbar-nav .dropdown-menu {
 	border-radius: 13px !important;
 }
@@ -125,16 +129,18 @@ color: #fff !important;
   border-radius: 13px !important;
 }
 
-.social{
-  margin-top: 5px;
-}
-.social:hover,.social:focus{
+#social{
+    display: flex;
+    align-items: center;
+    justify-content: end !important;
+  }
+/* .social:hover,.social:focus{
   display: block;
   width: 2.0em; 
   height: 2.0em;
   border-radius: 1.5em;
   background-image: linear-gradient(15deg, #e49ed1 0%, #e9de64 100%);
-}
+} */
 
 .tutorial-container{
   color: #4e075c !important;
@@ -181,4 +187,22 @@ color: #fff !important;
 
 #aboutme{
   color: #4e075c !important;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#div2 {
+animation: bounceIn 2s ease-in-out;
 }
